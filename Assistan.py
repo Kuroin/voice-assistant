@@ -68,16 +68,4 @@ for d in devices['devices']:
 
 
 
-def selamlama():
-    saat = dt.now().hour
-    if 6<saat<12:
-        speak("Günaydın efendim ne yapmak istersiniz ?")
-    elif 12<saat<18:
-        speak("İyi akşamlar efendim ne yapmak istersiniz ?")
-    elif 18<saat<24:
-        speak("İyi geceler efendim ne yapmak istersiniz ?")
-
-
-
-
 
