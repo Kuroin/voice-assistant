@@ -14,7 +14,5 @@ if __name__ == '__main__':
             if "çıkış yap" in komut:
                 speak("İyi günler efendim")
                 break
-            if "*" in komut:
-                speak("Küfür etme terbiyesiz")
             if "bekle" in komut:
                 time.sleep(120)
