@@ -1,9 +1,6 @@
 from spotipy import Spotify
 import json
 
-class InvalidSearchError(Exception):
-    pass
-
 def get_track_uri(spotify= Spotify, name=None):
     original = name
     name=name.replace(' ', "+")
